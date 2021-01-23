@@ -14,8 +14,10 @@ body {
     overflow: hidden;
 }
 
-h1 {
-    margin: 20px 0 0;
+.headi {
+    margin: 20px 0 0 0;
+    text-align: center;
+    justify-content: center;
 }
 
 .game-container {
@@ -125,4 +127,14 @@ h1 {
 
 .notification-container.show {
     transform: translateY(-50px);
+}
+
+@media screen and (max-width:440px) {
+    .headi {
+        font-size: 18px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
 }
