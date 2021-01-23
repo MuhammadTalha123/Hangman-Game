@@ -136,5 +136,7 @@ body {
 
     .para {
         font-size: 14px;
+        text-align: center;
+        justify-content: center;
     }
 }
